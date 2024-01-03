@@ -1,78 +1,75 @@
 # LocalArknights
 
-´Ë²Ö¿âÎªLocalArknights 1.9.3 Beta 3.jarµÄ×ÊÔ´ÎÄ¼ş²Ö¿â
+æ­¤ä»“åº“ä¸ºLocalArknights 1.9.3 Beta 3.jarçš„èµ„æºæ–‡ä»¶ä»“åº“
 
-Ô­²Ö¿âÒÑÓÚ2021ÄêÍ£Ö¹¸üĞÂ²¢½øĞĞÉ¾¿â£¬µ¹Âô·ç²¨ÒÑ¹ı£¬Òò´Ë¹«¿ª¸Ã´úÂëÒÔ·½±ã¸÷Î»´î½¨¡¢ÓÎÍæºÍÑ§Ï°´Ë²Ö¿â½ö¹©ÄÚÈİ±£Áô£¬²Ö¿âËùÓĞÕß½ö½øĞĞÔ´´úÂëĞŞ¸´£¬²»»á½øĞĞÈÎºÎÓÎÏ·ÄÚÈİµÄ¸üĞÂ
+åŸä»“åº“å·²äº2021å¹´åœæ­¢æ›´æ–°å¹¶è¿›è¡Œåˆ åº“ï¼Œå€’å–é£æ³¢å·²è¿‡ï¼Œå› æ­¤å…¬å¼€è¯¥ä»£ç ä»¥æ–¹ä¾¿å„ä½æ­å»ºã€æ¸¸ç©å’Œå­¦ä¹ æ­¤ä»“åº“ä»…ä¾›å†…å®¹ä¿ç•™ï¼Œä»“åº“æ‰€æœ‰è€…ä»…è¿›è¡Œæºä»£ç ä¿®å¤ï¼Œä¸ä¼šè¿›è¡Œä»»ä½•æ¸¸æˆå†…å®¹çš„æ›´æ–°
 
-[×ÊÔ´ÎÄ¼ş²Ö¿â](https://github.com/jiellll1219/LocalArns-res) [Ô´´úÂë²Ö¿â](https://github.com/jiellll1219/LocalArns)
+[èµ„æºæ–‡ä»¶ä»“åº“](https://github.com/jiellll1219/LocalArns-res) [æºä»£ç ä»“åº“](https://github.com/jiellll1219/LocalArns)
 
-## ÈçºÎÊ¹ÓÃ
+## å¦‚ä½•ä½¿ç”¨
 
-- Æô¶¯MySQL
-- ¿ËÂ¡´Ë²Ö¿âÖÁ±¾µØ
-- °ÑÔ¤±àÒë»ò×ÔĞĞ±àÒëµÄjar·Åµ½¿ËÂ¡µÄÎÄ¼ş¼ĞÄÚ
-- Ê¹ÓÃ ```java -jar "hypergryph-1.9.4 Beta 3.jar" ```Æô¶¯
+- å¯åŠ¨MySQL
+- å…‹éš†æ­¤ä»“åº“è‡³æœ¬åœ°
+- æŠŠé¢„ç¼–è¯‘æˆ–è‡ªè¡Œç¼–è¯‘çš„jaræ”¾åˆ°å…‹éš†çš„æ–‡ä»¶å¤¹å†…
+- ä½¿ç”¨ ```java -jar "hypergryph-1.9.4 Beta 3.jar" ```å¯åŠ¨
 
-### Ç°ÖÃÌõ¼ş
+### å‰ç½®æ¡ä»¶
 
-1. MySQL ²»µÍÓÚ8.0.10
+1. MySQL ä¸ä½äº8.0.10
 	* [MySql](https://dev.mysql.com/downloads/mysql/)
-2. Java ²»µÍÓÚ1.8.0
+2. Java ä¸ä½äº1.8.0
 	* [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 	* [Java SE 8](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 
-## ÒÑÊµÏÖ¹¦ÄÜ
+## å·²å®ç°åŠŸèƒ½
 
-ºÃÓÑÏµÍ³
+å¥½å‹ç³»ç»Ÿ
 
-ÖúÕ½ÏµÍ³
+åŠ©æˆ˜ç³»ç»Ÿ
 
-¹«¿ªÕĞÄ¼
+å…¬å¼€æ‹›å‹Ÿ
 
-¸ÉÔ±Ñ°·Ã
+å¹²å‘˜å¯»è®¿
 
-¸ÉÔ±Ò»ÏµÁĞÑø³É
+å¹²å‘˜ä¸€ç³»åˆ—å…»æˆ
 
-ÉÌµêÔ´Ê¯¡¢Æ¤·ôµÄ¹ºÂò
+å•†åº—æºçŸ³ã€çš®è‚¤çš„è´­ä¹°
 
-Õ½¶·£¨¿ÉÒÔÍÆÍ¼£¬ÓĞµôÂä£© Ä¿Ç°¿ÉÍÆ½ø¶È6-1
+æˆ˜æ–—ï¼ˆå¯ä»¥æ¨å›¾ï¼Œæœ‰æ‰è½ï¼‰ ç›®å‰å¯æ¨è¿›åº¦6-1
 
-»ù½¨£ºÖÆÔìÕ¾¡¢Ã³Ò×Õ¾¡¢¼Ó¹¤Õ¾¡¢×¨¾«ÑµÁ·
+åŸºå»ºï¼šåˆ¶é€ ç«™ã€è´¸æ˜“ç«™ã€åŠ å·¥ç«™ã€ä¸“ç²¾è®­ç»ƒ
 
-ÓÊ¼şÊÕ·¢
+é‚®ä»¶æ”¶å‘
 
-Mod¼ÓÔØ
+ModåŠ è½½
 
-## ¿Í»§¶ËÏÂÔØ
+### å®¢æˆ·ç«¯ä¸‹è½½
 
-[°Ù¶ÈÍøÅÌ](https://pan.baidu.com/s/1P_GFqVulkx7LRWe6yr1-0A?pwd=1145)
-
-[Î¢ÔÆ](https://share.weiyun.com/OS49Gfbk)
-
-[¹È¸èÔÆÅÌ](https://drive.google.com/drive/folders/1NmT4rF1Fm4QRut2Hdr9rbS7OtU1cH3-0?usp=share_link)
-
+[ç™¾åº¦ç½‘ç›˜](https://pan.baidu.com/s/1P_GFqVulkx7LRWe6yr1-0A?pwd=1145)
+[å¾®äº‘](https://share.weiyun.com/OS49Gfbk)
+[è°·æ­Œäº‘ç›˜](https://drive.google.com/drive/folders/1NmT4rF1Fm4QRut2Hdr9rbS7OtU1cH3-0?usp=share_link)
 [OneDrive](https://1drv.ms/u/s!AvymlfMQY0dAdWwryYgMp1GzvLk?e=lnn5JY)
-
 [MEGA](https://mega.nz/folder/laA00QRZ#D0-Qf8rvRs9G4Jik53XZgg)
 
 
-# Ö¸ÄÏ
+# æŒ‡å—
 
-ÒÔÏÂÎª¸÷ÀàÊı¾İ±à¼­°ïÖú£¬½ö¹©²Î¿¼£¬Çë°´ÕÕÊµ¼ÊÇé¿öµ÷Õû
+ä»¥ä¸‹ä¸ºå„ç±»æ•°æ®ç¼–è¾‘å¸®åŠ©ï¼Œä»…ä¾›å‚è€ƒï¼Œè¯·æŒ‰ç…§å®é™…æƒ…å†µè°ƒæ•´
 
-## ¸÷Àà³£ÓÃÊı¾İÎÄ¼şÎ»ÖÃ
+## å„ç±»å¸¸ç”¨æ•°æ®æ–‡ä»¶ä½ç½®
 
-ÕË»§Êı¾İ: Êı¾İ¿â-account±í-userÏî  
-½ÇÉ«id±í£º data/excel/charcter_table.json  
-ÎïÆ·id±í£º data/excel/item_table.json  
-Æ¤·ôid±í£º data/excel/skin_table.json  
-ºÏÔ¼id±í£º data/excel/crisis_table.json
+è´¦æˆ·æ•°æ®ï¼š æ•°æ®åº“-accountè¡¨-useré¡¹  
+è§’è‰²idè¡¨ï¼š data/excel/charcter_table.json  
+ç‰©å“idè¡¨ï¼š data/excel/item_table.json  
+çš®è‚¤idè¡¨ï¼š data/excel/skin_table.json  
+åˆçº¦idè¡¨ï¼š data/excel/crisis_table.json
 
-## Êı¾İ±à¼­
-1. ¶¨Î»ÕË»§Ö÷ÒªÊı¾İ
-				ÕË»§Êı¾İËÑË÷ `status`
+## æ•°æ®ç¼–è¾‘
+1. å®šä½è´¦æˆ·ä¸»è¦æ•°æ®
+			
+	è´¦æˆ·æ•°æ®æœç´¢ `status`
 
-	#### ¸ñÊ½
+	#### æ ¼å¼
 	```
 	"status"{
 	"ap": 0,
@@ -87,18 +84,18 @@ Mod¼ÓÔØ
             "id": "avatar_def_06",
             "type": "ICON"
         },
-        "resume": "¼ò½éÄÚÈİ",
+        "resume": "ç®€ä»‹å†…å®¹",
         "avatarId": "0",
         "hggShard": 0,
         "lggShard": 0,
-        "nickName": "ÕË»§Ãû³Æ",
+        "nickName": "è´¦æˆ·åç§°",
         "progress": 0,
-        "secretary": "¿´°å½ÇÉ«id",
+        "secretary": "çœ‹æ¿è§’è‰²id",
         "gachaCount": 0,
         "iosDiamond": 0,
         "nickNumber": "0",
         "registerTs": 0,
-        "serverName": "·şÎñÆ÷Ãû³Æ",
+        "serverName": "æœåŠ¡å™¨åç§°",
         "gachaTicket": 0,
         "socialPoint": 0,
         "diamondShard": 0,
@@ -112,9 +109,9 @@ Mod¼ÓÔØ
         "practiceTicket": 0,
         "recruitLicense": 0,
         "tenGachaTicket": 0,
-        "secretarySkinId": "¿´°å½ÇÉ«Æ¤·ôid",
+        "secretarySkinId": "çœ‹æ¿è§’è‰²çš®è‚¤id",
         "buyApRemainTimes": 0,
-        "mainStageProgress": "main_01-01",//Ö÷Ïß½ø¶È
+        "mainStageProgress": "main_01-01",//ä¸»çº¿è¿›åº¦
         "instantFinishTicket": 0,
         "tipMonthlyCardExpireTs": 0,
         "monthlySubscriptionEndTime": 0,
@@ -122,11 +119,11 @@ Mod¼ÓÔØ
 	},
 	```
 
-2. ¶¨Î»ÕË»§»ù½¨Êı¾İ
+2. å®šä½è´¦æˆ·åŸºå»ºæ•°æ®
 
-	ÕË»§Êı¾İËÑË÷ `building`
+	è´¦æˆ·æ•°æ®æœç´¢ `building`
 
-    #### ¸ñÊ½
+    #### æ ¼å¼
     ```
     "building"{
         "chars": {
@@ -143,7 +140,7 @@ Mod¼ÓÔØ
                         "add": -1
                     }
                 },
-                "charId": "½ÇÉ«id",
+                "charId": "è§’è‰²id",
                 "workTime": 0,
                 "roomSlotId": "",
                 "changeScale": 0,
@@ -156,11 +153,11 @@ Mod¼ÓÔØ
     },
     ```
     
-3. ¶¨Î»¸ÉÔ±Êı¾İ	
+3. å®šä½å¹²å‘˜æ•°æ®	
 
-	ÕË»§Êı¾İËÑË÷ËÑË÷ `chars`
+	è´¦æˆ·æ•°æ®æœç´¢æœç´¢ `chars`
 
-    #### ¸ñÊ½
+    #### æ ¼å¼
     ```
     "chars": {
     "1": {
@@ -205,10 +202,10 @@ Mod¼ÓÔØ
     },
     ```
 
-## ¿¨³Ø±à¼­
+## å¡æ± ç¼–è¾‘
 
-#### ¿¨³Ø¸ü»»  
-configÖĞĞŞ¸Ätimestamp²ÎÊıÎª¿¨³ØopenTimeºó»òendtimpÇ°  
+#### å¡æ± æ›´æ¢  
+configä¸­ä¿®æ”¹timestampå‚æ•°ä¸ºå¡æ± openTimeåæˆ–endtimpå‰  
 
 ```
 "timestamp":{
@@ -221,28 +218,28 @@ configÖĞĞŞ¸Ätimestamp²ÎÊıÎª¿¨³ØopenTimeºó»òendtimpÇ°
 		"sunday":1645351200
 	},
 ```
-ÏêÇéÇë²é¿´¿¨³ØĞÅÏ¢ÎÄ¼ş£¬¸ÃÎÄ¼şÎ»ÓÚ  
-* "server_location"/excel/gacha_table.json
+è¯¦æƒ…è¯·æŸ¥çœ‹å¡æ± ä¿¡æ¯æ–‡ä»¶ï¼Œè¯¥æ–‡ä»¶ä½äº  
+* "server_location"/data/excel/gacha_table.json
 
-¿¨³ØÄ£°åÎ»ÖÃ  
+å¡æ± æ¨¡æ¿ä½ç½®  
 * "server_location"/data/gahca
 
-`perAvailList`Îª¿¨³Ø¿É»ñµÃµÄ½ÇÉ«
+`perAvailList`ä¸ºå¡æ± å¯è·å¾—çš„è§’è‰²
 
-`rarityRank`Îª¸ÉÔ±Ï¡ÓĞ¶È£¬ºÏ·¨·¶Î§Îª0-5
+`rarityRank`ä¸ºå¹²å‘˜ç¨€æœ‰åº¦ï¼Œåˆæ³•èŒƒå›´ä¸º0-5
 
-ÔÚ`rarityRank`ÏÂ·½µÄ`charIdList`Îª¸ÉÔ±id±í
+åœ¨`rarityRank`ä¸‹æ–¹çš„`charIdList`ä¸ºå¹²å‘˜idè¡¨
 
-`totalPercent`Îª»ñµÃ¸ÅÂÊ£¬µ¥Î»ÎªĞ¡Êı£¬ºÏ·¨·¶Î§ÔÚ0-1  
-* Çë×¢Òâ£¬È«²¿ÁĞ±íÏà¼ÓµÄ»ñµÃ¸ÅÂÊ²»Òª³¬¹ı1£¬·ñÔò¿ÉÄÜÒı·¢¹ÊÕÏ
+`totalPercent`ä¸ºè·å¾—æ¦‚ç‡ï¼Œå•ä½ä¸ºå°æ•°ï¼Œåˆæ³•èŒƒå›´åœ¨0-1  
+* è¯·æ³¨æ„ï¼Œå…¨éƒ¨åˆ—è¡¨ç›¸åŠ çš„è·å¾—æ¦‚ç‡ä¸è¦è¶…è¿‡1ï¼Œå¦åˆ™å¯èƒ½å¼•å‘æ•…éšœ
 
-`upCharInfo`Îª»ñµÃ¸ÅÂÊÌáÉıÁĞ±í£¬¹æÔòÓëÉÏÊöÏàÍ¬
+`upCharInfo`ä¸ºè·å¾—æ¦‚ç‡æå‡åˆ—è¡¨ï¼Œè§„åˆ™ä¸ä¸Šè¿°ç›¸åŒ
 
-#### ÈçÒªÌí¼ÓĞÂµÄ×Ô¶¨Òå¿¨³ØÇë°´¹æÂÉÃüÃûjsonÎÄ¼ş²¢ÔÚ`gacha_table.json`ÖĞÌí¼Ó¸Ã¿¨³ØidÓëÊ±¼ä
+#### å¦‚è¦æ·»åŠ æ–°çš„è‡ªå®šä¹‰å¡æ± è¯·æŒ‰è§„å¾‹å‘½åjsonæ–‡ä»¶å¹¶åœ¨`gacha_table.json`ä¸­æ·»åŠ è¯¥å¡æ± idä¸æ—¶é—´
 
-## ¿ÉÄÜµ¼ÖÂ´æµµËğ»µµÄÊÂ¼şÁĞ¾Ù
+## å¯èƒ½å¯¼è‡´å­˜æ¡£æŸåçš„æ“ä½œåˆ—ä¸¾
 
-1. ¸ÉÔ±ĞÅÎïÊıÁ¿¹ı¶à£¨16/32/64£©
-2. ÈÎÒâÎïÆ·ÊıÁ¿Îª¸º
-3. ÓµÓĞÓĞÊ±¼äÏŞÆÚµÄÎïÆ·
-4. »ù½¨ÖĞ¸ÉÔ±µ÷Õû
+1. å¹²å‘˜ä¿¡ç‰©æ•°é‡è¿‡å¤šï¼ˆ16/32/64ï¼‰
+2. ä»»æ„ç‰©å“æ•°é‡ä¸ºè´Ÿ
+3. æ‹¥æœ‰æœ‰æ—¶é—´é™æœŸçš„ç‰©å“
+4. åŸºå»ºä¸­å¹²å‘˜è°ƒæ•´
