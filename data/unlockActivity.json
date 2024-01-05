@@ -1,0 +1,83 @@
+{
+    "act10mini": {
+        "id": "act10mini",
+        "type": "MINISTORY",
+        "displayType": "MINISTORY",
+        "name": "阴云火花",
+        "startTime": 1644912000,
+        "endTime": 1645473599,
+        "rewardEndTime": 1645732799,
+        "displayOnHome": true,
+        "templateShopId": "shop_act10mini",
+        "activity": {
+            "MINISTORY": {
+                "act10mini": {
+                    "coin": 88888,
+                    "favorList": ["char_377_gdglow", "char_492_quercu"]
+                }
+            },
+            "stage": [
+                "act10mini_01",
+                "act10mini_01#f#",
+                "act10mini_02",
+                "act10mini_02#f#",
+                "act10mini_03",
+                "act10mini_03#f#",
+                "act10mini_04",
+                "act10mini_04#f#",
+                "act10mini_05",
+                "act10mini_05#f#",
+                "act10mini_06",
+                "act10mini_06#f#",
+                "act10mini_07",
+                "act10mini_07#f#",
+                "act10mini_08",
+                "act10mini_08#f#",
+                "act10mini_09",
+                "act10mini_10"
+            ],
+            "storyreview":[
+                "act10min_level_act10mini_st01",
+                "act10min_level_act10mini_st02",
+                "act10min_level_act10mini_st03",
+                "act10min_level_act10mini_st04",
+                "act10min_level_act10mini_st05",
+                "act10min_level_act10mini_st06"
+            ]
+        }
+    },
+    "act16side": {
+        "id": "act16side",
+        "type": "TYPE_ACT9D0",
+        "displayType": "SIDESTORY",
+        "name": "吾导先路",
+        "startTime": 1647316800,
+        "endTime": 1648497599,
+        "rewardEndTime": 1649102399,
+        "displayOnHome": true,
+        "hasStage": true,
+        "actTopBarColor": null,
+        "actTopBarText": null,
+        "templateShopId": "shop_act16side",
+        "medalGroupId": "medalGroupActivity16side",
+        "isReplicate": false,
+        "activity": {
+            "TYPE_ACT9D0": {
+                "act16side": {
+                }
+            },
+            "stage": [
+                "act16side_st01",
+                "act16side_01",
+                "act16side_02",
+                "act16side_03",
+                "act16side_04",
+                "act16side_05",
+                "act16side_06",
+                "act16side_07",
+                "act16side_08"
+            ],
+            "storyreview":[]
+        }
+    }
+}

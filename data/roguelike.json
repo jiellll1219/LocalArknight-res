@@ -1,0 +1,350 @@
+{
+    "rlv2": {
+        "initRelic": {
+            "rogue_1_relic_r01": true,
+            "rogue_1_relic_r02": true,
+            "rogue_1_relic_r03": true,
+            "rogue_1_relic_r04": true,
+            "rogue_1_relic_r05": true,
+            "rogue_1_relic_r06": true,
+            "rogue_1_relic_r07": true,
+            "rogue_1_relic_r08": true,
+            "rogue_1_relic_r09": true,
+            "rogue_1_relic_r10": true,
+            "rogue_1_relic_r11": true,
+            "rogue_1_relic_r12": true
+        },
+        "customRelic": [
+            {
+                "name": "test",
+                "description": "test",
+                "usage": "所有我方单位每秒回复10%的最大生命值",
+                "enableRelic": true,
+                "buffs": [
+                    {
+                        "key": "char_attribute_add",
+                        "blackboard": [
+                            {
+                                "key": "ability_range_forward_extend",
+                                "value": 5.0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "relic_0",
+                "description": "详细参数请参考 data/excel/roguelike_topic_table.json 文件。注意，自定义收藏品仅针对战斗效果，不支持比如： 希望、源石碇、编队人数等。修改完成后，记得使用reload指令或重启服务端来应用效果。",
+                "usage": "所有我方单位每秒回复10%的最大生命值",
+                "enableRelic": true,
+                "buffs": [
+                    {
+                        "key": "char_attribute_add",
+                        "blackboard": [
+                            {
+                                "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                                "value": 0.10
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "relic_1",
+                "description": "测试攻击力增加收藏品",
+                "usage": "攻击力+30",
+                "enableRelic": true,
+                "buffs": [
+                    {
+                        "key": "char_attribute_add",
+                        "blackboard": [
+                            {
+                                "key": "atk",
+                                "value": 30.0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "relic_2",
+                "description": "测试部署时间减少收藏品",
+                "usage": "重部署时间-100s",
+                "enableRelic": true,
+                "buffs": [
+                    {
+                        "key": "char_attribute_add",
+                        "blackboard": [
+                            {
+                                "key": "respawn_time",
+                                "value": -100.0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "relic_3",
+                "description": "测试增加血量收藏品",
+                "usage": "血量+5%",
+                "enableRelic": true,
+                "buffs": [
+                    {
+                        "key": "char_attribute_mul",
+                        "blackboard": [
+                            {
+                                "key": "max_hp",
+                                "value": 0.05
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "relic_4",
+                "description": "测试SP回复收藏品",
+                "usage": "所有自然回复技能的技力恢复+100/s",
+                "enableRelic": true,
+                "buffs": [
+                    {
+                        "key": "global_buff_stack",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "modify_sp_recover[normal]"
+                            },
+                            {
+                                "key": "sp_recovery_per_sec",
+                                "value": 100.0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "relic_5",
+                "description": "测试其他收藏品效果",
+                "usage": "低位部署高台干员",
+                "enableRelic": true,
+                "buffs": [
+                    {
+                        "key": "deck_card_buff",
+                        "blackboard": [
+                            {
+                                "key": "selector.buildable",
+                                "valueStr": "ranged"
+                            },
+                            {
+                                "key": "buildable_type",
+                                "value": 3
+                            },
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "warrior|sniper|tank|medic|support|caster|special|pioneer"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "维多利亚王冠",
+                "description": "相当于自定义收藏品，请自行发挥",
+                "usage": "所有敌方单位的攻击力、防御力、生命+30%，且所有领袖单位还会攻击力、防御力+15%，生命+30%",
+                "enableRelic": true,
+                "buffs": [
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1.3
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_def_down"
+                            },
+                            {
+                                "key": "def",
+                                "value": 1.3
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.3
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1.15
+                            },
+                            {
+                                "key": "selector.boss_option",
+                                "valueStr": "boss"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_def_down"
+                            },
+                            {
+                                "key": "def",
+                                "value": 1.15
+                            },
+                            {
+                                "key": "selector.boss_option",
+                                "valueStr": "boss"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.3
+                            },
+                            {
+                                "key": "selector.boss_option",
+                                "valueStr": "boss"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "customMap": {
+            "zones": {
+                "1": {
+                    "id": "zone_1",
+                    "index": 1,
+                    "nodes": {
+                        "0": {
+                            "index": "0",
+                            "pos": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "next": [
+                                {
+                                    "x": 1,
+                                    "y": 0
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 1
+                                }
+                            ],
+                            "type": 1,
+                            "stage": "ro1_n_1_1"
+                        },
+                        "100": {
+                            "index": "100",
+                            "pos": {
+                                "x": 1,
+                                "y": 0
+                            },
+                            "next": [
+                                {
+                                    "x": 2,
+                                    "y": 0
+                                }
+                            ],
+                            "type": 1,
+                            "stage": "ro1_n_1_2"
+                        },
+                        "101": {
+                            "index": "101",
+                            "pos": {
+                                "x": 1,
+                                "y": 1
+                            },
+                            "next": [
+                                {
+                                    "x": 2,
+                                    "y": 1
+                                }
+                            ],
+                            "type": 1,
+                            "stage": "ro1_n_1_3"
+                        },
+                        "200": {
+                            "index": "200",
+                            "pos": {
+                                "x": 2,
+                                "y": 0
+                            },
+                            "next": [
+                                {
+                                    "x": 3,
+                                    "y": 0
+                                }
+                            ],
+                            "type": 1,
+                            "stage": "ro1_n_1_4"
+                        },
+                        "201": {
+                            "index": "201",
+                            "pos": {
+                                "x": 2,
+                                "y": 1
+                            },
+                            "next": [
+                                {
+                                    "x": 3,
+                                    "y": 0
+                                }
+                            ],
+                            "type": 1,
+                            "stage": "ro1_n_2_1"
+                        },
+                        "300": {
+                            "index": "300",
+                            "pos": {
+                                "x": 3,
+                                "y": 0
+                            },
+                            "next": [],
+                            "type": 1,
+                            "stage":"ro1_b_6",
+                            "zone_end": true
+                        }
+                    },
+                    "variation": []
+                }
+            }
+        }
+    }
+}

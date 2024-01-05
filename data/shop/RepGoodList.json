@@ -1,0 +1,23 @@
+{
+    "goodListEx": [
+        {
+            "goodId": "good_REP_1",
+            "goodType": "NORMAL",
+            "startTime": 1597132800,
+            "item": {
+                "id": "4003",
+                "count": 100,
+                "type": "DIAMOND_SHD"
+            },
+            "price": 20,
+            "sortId": 1,
+            "availCount": 140
+        }
+    ],
+    "goodList": [],
+    "newFlag": [],
+    "playerDataDelta": {
+        "modified": {},
+        "deleted": {}
+    }
+}
