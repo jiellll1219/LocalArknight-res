@@ -2,7 +2,7 @@
 
 此仓库为LocalArknights 1.9.3 Beta 3.jar的资源文件仓库
 
-原仓库已于2021年停止更新并进行删库，倒卖风波已过，因此公开该代码以方便各位搭建、游玩和学习此仓库仅供内容保留，仓库所有者仅进行源代码修复，不会进行任何游戏内容的更新
+原仓库已于2022年停止更新并进行删库
 
 [资源文件仓库](https://github.com/jiellll1219/LocalArknight-res) [源代码仓库](https://github.com/jiellll1219/LocalArknight)
 
@@ -36,6 +36,8 @@
 商店源石、皮肤的购买
 
 战斗（可以推图，有掉落） 目前可推进度6-1
+
+基础肉鸽游玩
 
 基建：制造站、贸易站、加工站、专精训练
 
@@ -219,10 +221,10 @@ config中修改timestamp参数为卡池openTime后或endtimp前
 	},
 ```
 详情请查看卡池信息文件，该文件位于  
-* "server_location"/data/excel/gacha_table.json
+* /data/excel/gacha_table.json
 
 卡池模板位置  
-* "server_location"/data/gahca
+* /data/gahca
 
 `perAvailList`为卡池可获得的角色
 
