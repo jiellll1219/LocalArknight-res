@@ -45,7 +45,7 @@
 
 Mod加载
 
-### 客户端下载
+## 客户端下载
 
 [百度网盘](https://pan.baidu.com/s/1P_GFqVulkx7LRWe6yr1-0A?pwd=1145)
 [微云](https://share.weiyun.com/OS49Gfbk)
@@ -66,13 +66,13 @@ Mod加载
 皮肤id表： data/excel/skin_table.json  
 合约id表： data/excel/crisis_table.json
 
-## 数据编辑
+## 数据编辑(自定义)
 1. 定位账户主要数据
 			
 	账户数据搜索 `status`
 
 	#### 格式
-	```
+	```json
 	"status"{
 	"ap": 0,
         "exp": 0,
@@ -113,7 +113,7 @@ Mod加载
         "tenGachaTicket": 0,
         "secretarySkinId": "看板角色皮肤id",
         "buyApRemainTimes": 0,
-        "mainStageProgress": "main_01-01",//主线进度
+        "mainStageProgress": "主线进度(main_01-01)",
         "instantFinishTicket": 0,
         "tipMonthlyCardExpireTs": 0,
         "monthlySubscriptionEndTime": 0,
@@ -126,7 +126,7 @@ Mod加载
 	账户数据搜索 `building`
 
     #### 格式
-    ```
+    ```json
     "building"{
         "chars": {
             "1": {
@@ -160,7 +160,7 @@ Mod加载
 	账户数据搜索搜索 `chars`
 
     #### 格式
-    ```
+    ```json
     "chars": {
     "1": {
                 "exp": 0,
@@ -208,8 +208,7 @@ Mod加载
 
 #### 卡池更换  
 config中修改timestamp参数为卡池openTime后或endtimp前  
-
-```
+```json
 "timestamp":{
 		"monday":1645437600,
 		"tuesday":1644919200,
@@ -237,7 +236,7 @@ config中修改timestamp参数为卡池openTime后或endtimp前
 
 `upCharInfo`为获得概率提升列表，规则与上述相同
 
-#### 如要添加新的自定义卡池请按规律命名json文件并在`gacha_table.json`中添加该卡池id与时间
+如要添加新的自定义卡池请按规律命名json文件并在`gacha_table.json`中添加该卡池id与时间
 
 ## 可能导致存档损坏的 操作/事件 列举
 
