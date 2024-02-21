@@ -71,7 +71,7 @@ Mod加载
 			
 	账户数据搜索 `status`
 
-	#### 格式
+	#### status数据格式
 	```json
 	"status"{
 	"ap": 0,
@@ -125,7 +125,7 @@ Mod加载
 
 	账户数据搜索 `building`
 
-    #### 格式
+    #### building数据格式
     ```json
     "building"{
         "chars": {
@@ -159,7 +159,7 @@ Mod加载
 
 	账户数据搜索搜索 `chars`
 
-    #### 格式
+    #### chars数据格式
     ```json
     "chars": {
     "1": {
